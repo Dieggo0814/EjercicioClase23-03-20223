@@ -2,11 +2,12 @@ package PaqViviendas;
 
 public class Piso extends Vivienda{
     private boolean terraza;
-    private int metrospiso;
+    private double metrospiso;
 
-    public Piso(double precio, double numerodeplantas, int metrospiso) {
+    public Piso(double precio, double numerodeplantas, double metrospiso, boolean terraza) {
         super(precio, numerodeplantas);
         this.metrospiso = metrospiso;
+        this.terraza = terraza;
     }
 
     @Override
