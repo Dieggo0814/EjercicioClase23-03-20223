@@ -12,6 +12,6 @@ public class CasadeCampo extends Vivienda{
 
     @Override
     public double impuesto() {
-        return super.impuesto()+ 0.5 * this.metrosparcela;
+        return super.impuesto()+  0.5 * this.metrosparcela;
     }
 }
