@@ -4,8 +4,10 @@ public class CasadeCampo extends Vivienda{
     private double metrosparcela;
     private Chalet chalet;
 
-    public CasadeCampo(double precio, double numerodeplantas) {
+    public CasadeCampo(double precio, double numerodeplantas, double metrosparcela, Chalet chalet) {
         super(precio, numerodeplantas);
+        this.metrosparcela = metrosparcela;
+        this.chalet = chalet;
     }
 
     @Override
