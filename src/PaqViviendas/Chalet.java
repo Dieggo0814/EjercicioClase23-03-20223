@@ -4,8 +4,7 @@ public class Chalet extends Unifamiliar{
     private double metrosjardin;
 
 
-    public Chalet(double precio, double numerodeplantas, double metrosjardin) {
+    public Chalet(double precio, double numerodeplantas) {
         super(precio, numerodeplantas);
-        this.metrosjardin=metrosjardin;
     }
 }
